@@ -1962,7 +1962,7 @@ textarea {
 /*  2.7 breadcrumb
 /*----------------------------------------*/
 .breadcrumb-space {
-  padding: 296px 0 160px;
+  padding: 116px 0 110px;
 }
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
   .breadcrumb-space {
