@@ -112,14 +112,21 @@
 /*  1.1 Theme Default
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&amp;family=Rubik:wght@300;400;500;600;700;800&amp;family=Sofia&amp;display=swap");
+/* .banner-home-bg {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(236, 234, 253, 0.5)), color-stop(49.48%, rgba(236, 234, 253, 0.5)), color-stop(99.8%, rgba(236, 234, 253, 0.5)));
+  background: linear-gradient(90deg, rgba(236, 234, 253, 0.8) 0.19%, rgba(236, 234, 253, 0.5) 49.48%, rgba(236, 234, 253, 0.8) 99.8%);
+} */
 .banner-home-bg {
-  background: -webkit-gradient(linear, left top, right top, color-stop(0.19%, rgba(255, 61, 0, 0.1)), color-stop(49.48%, rgba(255, 177, 152, 0.1)), color-stop(99.8%, rgba(255, 61, 0, 0.1)));
-  background: linear-gradient(90deg, rgba(255, 61, 0, 0.1) 0.19%, rgba(255, 177, 152, 0.1) 49.48%, rgba(255, 61, 0, 0.1) 99.8%);
+  background-image: linear-gradient(180deg, rgba(236, 234, 253, .8) 50%, rgba(236, 234, 253, .05));
 }
 
-.latest-feature-bg {
+/* .latest-feature-bg {
   background-color: #fffbfa;
+} */
+.latest-feature-bg {
+  background-color:  rgba(236, 234, 253,.3);
 }
+
 
 .latest-Choose-bg {
   background-color: #fff;
@@ -130,7 +137,8 @@
 }
 
 .latest-counter-bg {
-  background-color: #FFF5F1;
+  /* background-color: #FFF5F1; */
+  background-color:rgba(236, 234, 253, .7);
 }
 
 .question-bg {
@@ -272,12 +280,14 @@ h6 {
   --rr-common-placeholder: #4A5764;
   --rr-body-primary: #ffffff;
   --rr-theme-primary: #FF3D00;
+  --rr-theme-primary: #312783;
+
   --rr-theme-secondary: #07CBEB;
   --rr-heading-primary: #001D08;
   --rr-text-body: #646464;
   --rr-text-primary: #000;
   --rr-shadow-primary: 0px 30px 60px 0px rgba(0, 15, 32, 0.1);
-  --rr-border-primary: 1px solid #FF3D00;
+  --rr-border-primary: 1px solid #312783;
   /**
   @font weight declaration
   */
@@ -9240,7 +9250,8 @@ body .ui-tooltip {
   z-index: 1;
 }
 .footer__area-common.background {
-  background: #FFF5F1;
+  /* background: #FFF5F1; */
+  background:#101828 ;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer__area-common {
@@ -9322,7 +9333,7 @@ body .ui-tooltip {
   position: relative;
   z-index: 10;
   text-transform: capitalize;
-  color: var(--rr-common-black);
+  color:#fff;
   font-family: var(--rr-ff-heading);
   margin-top: 18px;
 }
@@ -9341,7 +9352,7 @@ body .ui-tooltip {
   max-width: 188px;
 }
 .footer__content p {
-  color: var(--rr-text-body);
+  color: #fff;
   font-family: var(--rr-ff-heading);
   font-weight: var(--rr-fw-regular);
   line-height: var(--rr-lh-h5);
@@ -9368,7 +9379,7 @@ body .ui-tooltip {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: var(--rr-text-body);
+  color: #fff;
   font-size: 18px;
   position: relative;
   font-weight: var(--rr-fw-regular);
@@ -9450,7 +9461,7 @@ body .ui-tooltip {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: var(--rr-text-body);
+  color: #fff;
   font-size: 18px;
   position: relative;
   font-weight: var(--rr-fw-regular);
@@ -13646,8 +13657,9 @@ html .ui-button.ui-state-disabled:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #fff0eb;
+  /* background: #fff0eb; */
   width: 60px;
+  background: rgba(236, 234, 253, .7);
   height: 60px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -15948,7 +15960,7 @@ html .ui-button.ui-state-disabled:active {
 .latest-service2__item-icon {
   width: 80px;
   height: 80px;
-  background: #ffeee8;
+  background:rgba(236, 234, 253, .7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15974,7 +15986,8 @@ html .ui-button.ui-state-disabled:active {
 .latest-service2__item-icon-img {
   width: 80px;
   height: 80px;
-  background: #ffeee8;
+  /* background: #ffeee8; */
+  background:rgba(236, 234, 253, .7) ;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
