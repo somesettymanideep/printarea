@@ -466,6 +466,9 @@
       var swiper = new Swiper(".card-slide", {
         slidesPerView: 4,
         spaceBetween: 30,
+        autoplay: {
+            delay: 3000,
+        },
         loop: true,
         navigation: {
             prevEl: ".team__slider-button-prev",
@@ -477,13 +480,13 @@
         },
         breakpoints: {
             1400: {
-                slidesPerView: 4,
+                slidesPerView: 1,
             },
             992: {
-                slidesPerView: 3,
+                slidesPerView: 1,
             },
             768: {
-                slidesPerView: 2,
+                slidesPerView: 1,
             },
             0: {
                 slidesPerView: 1,
